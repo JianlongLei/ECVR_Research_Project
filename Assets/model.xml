@@ -1,0 +1,1191 @@
+<mujoco model="scene">
+  <compiler autolimits="true" angle="radian"/>
+  <option timestep="0.01" gravity="0 0 -9.8100000000000005" integrator="RK4"/>
+  <visual>
+    <headlight active="0"/>
+  </visual>
+  <default>
+    <default class="/"/>
+    <default class="mbs0/"/>
+    <default class="mbs1/"/>
+    <default class="mbs2/"/>
+    <default class="mbs3/"/>
+    <default class="mbs4/"/>
+    <default class="mbs5/"/>
+  </default>
+  <asset>
+    <material name="heightmap_0_material" class="/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="0.39215686274509803 0.39215686274509803 0.39215686274509803 1"/>
+    <material name="mbs1/geom_mbs1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 0.19607843137254902 0.19607843137254902 1"/>
+    <material name="mbs1/geom_mbs1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_geom3_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_geom4_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link0_link1_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link1_link1_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link2_link1_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_link1_geom2_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_link1_link1_geom0_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs1/geom_mbs1_link3_link1_link1_link1_geom1_material" class="mbs1/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 0.19607843137254902 0.19607843137254902 1"/>
+    <material name="mbs2/geom_mbs2_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_geom3_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_geom4_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link0_link1_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link1_link1_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link2_link1_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_link1_geom2_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_link1_link1_geom0_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs2/geom_mbs2_link3_link1_link1_link1_geom1_material" class="mbs2/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 0.19607843137254902 0.19607843137254902 1"/>
+    <material name="mbs3/geom_mbs3_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_geom3_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_geom4_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link0_link1_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link1_link1_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link2_link1_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_link1_geom2_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_link1_link1_geom0_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs3/geom_mbs3_link3_link1_link1_link1_geom1_material" class="mbs3/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 0.19607843137254902 0.19607843137254902 1"/>
+    <material name="mbs4/geom_mbs4_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_geom3_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_geom4_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link0_link1_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link1_link1_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link2_link1_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_link1_geom2_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_link1_link1_geom0_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs4/geom_mbs4_link3_link1_link1_link1_geom1_material" class="mbs4/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 0.19607843137254902 0.19607843137254902 1"/>
+    <material name="mbs5/geom_mbs5_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_geom3_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_geom4_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link0_link1_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link1_link1_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link2_link1_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_link1_geom2_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_link1_link1_geom0_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+    <material name="mbs5/geom_mbs5_link3_link1_link1_link1_geom1_material" class="mbs5/" texrepeat="1 1" emission="0" specular="0.5" shininess="0.5" reflectance="0" rgba="1 1 1 1"/>
+  </asset>
+  <worldbody>
+    <light name="//unnamed_light_0" class="/" directional="true" castshadow="false" pos="0 0 100" ambient="0.5 0.5 0.5"/>
+    <body pos="0 0 0" quat="0 0 0 1" name="mbs0/"/>
+    <geom name="//unnamed_geom_0" class="/" type="plane" size="10 10 1" material="heightmap_0_material" pos="0 0 0" quat="0 0 0 1"/>
+    <body pos="0 0 0.03015" quat="0 0 0 1" name="mbs1/">
+      <freejoint name="mbs1/"/>
+      <geom name="mbs1/mbs1_geom0" class="mbs1/" type="box" size="0.044499999999999998 0.044499999999999998 0.03015" material="mbs1/geom_mbs1_geom0_material"/>
+      <geom name="mbs1/mbs1_geom1" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_geom1_material" pos="0.053499999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+      <geom name="mbs1/mbs1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_geom2_material" pos="-0.053499999999999999 0 0" quat="0 0 0.70710700000000004 0.70710700000000004"/>
+      <geom name="mbs1/mbs1_geom3" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_geom3_material" pos="0 0.053499999999999999 0" quat="0.5 0.5 0.5 0.5"/>
+      <geom name="mbs1/mbs1_geom4" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_geom4_material" pos="0 -0.053499999999999999 0" quat="0.5 0.5 -0.5 -0.5"/>
+      <body name="mbs1/mbs1_link0" pos="0.079024999999999998 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs1/mbs1_joint0" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs1/mbs1_link0_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link0_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs1/mbs1_link0_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link0_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs1/mbs1_link0_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link0_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs1/mbs1_link0_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs1/mbs1_link0_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs1/mbs1_link0_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link0_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs1/mbs1_link0_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link0_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs1/mbs1_link0_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link0_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs1/mbs1_link0_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs1/mbs1_link0_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs1/mbs1_link0_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link0_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs1/mbs1_link0_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link0_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs1/mbs1_link0_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link0_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs1/mbs1_link0_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs1/mbs1_link0_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs1/mbs1_link0_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link0_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs1/mbs1_link0_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link0_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs1/mbs1_link0_link1_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link0_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs1/mbs1_link0_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs1/mbs1_link0_link1_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs1/mbs1_link0_link1_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link0_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs1/mbs1_link0_link1_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link0_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs1/mbs1_link1" pos="-0.079024999999999998 0 0" quat="0 0 0.70710700000000004 0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs1/mbs1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs1/mbs1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs1/mbs1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs1/mbs1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs1/mbs1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs1/mbs1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs1/mbs1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs1/mbs1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs1/mbs1_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs1/mbs1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs1/mbs1_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs1/mbs1_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs1/mbs1_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs1/mbs1_link1_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs1/mbs1_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs1/mbs1_link1_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs1/mbs1_link1_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs1/mbs1_link1_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs1/mbs1_link1_link1_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link1_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs1/mbs1_link1_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs1/mbs1_link1_link1_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs1/mbs1_link1_link1_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs1/mbs1_link1_link1_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs1/mbs1_link2" pos="0 0.079024999999999998 0" quat="0.5 0.5 0.5 0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs1/mbs1_joint2" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs1/mbs1_link2_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link2_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs1/mbs1_link2_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link2_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs1/mbs1_link2_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link2_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs1/mbs1_link2_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs1/mbs1_link2_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs1/mbs1_link2_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs1/mbs1_link2_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs1/mbs1_link2_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link2_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs1/mbs1_link2_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs1/mbs1_link2_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs1/mbs1_link2_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs1/mbs1_link2_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs1/mbs1_link2_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link2_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs1/mbs1_link2_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs1/mbs1_link2_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs1/mbs1_link2_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs1/mbs1_link2_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs1/mbs1_link2_link1_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link2_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs1/mbs1_link2_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs1/mbs1_link2_link1_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs1/mbs1_link2_link1_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs1/mbs1_link2_link1_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs1/mbs1_link3" pos="0 -0.079024999999999998 0" quat="0.5 0.5 -0.5 -0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs1/mbs1_joint3" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs1/mbs1_link3_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link3_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs1/mbs1_link3_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link3_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs1/mbs1_link3_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link3_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs1/mbs1_link3_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs1/mbs1_link3_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs1/mbs1_link3_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs1/mbs1_link3_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs1/mbs1_link3_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link3_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs1/mbs1_link3_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs1/mbs1_link3_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs1/mbs1_link3_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs1/mbs1_link3_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs1/mbs1_link3_link1_link1_geom2" class="mbs1/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs1/geom_mbs1_link3_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs1/mbs1_link3_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+              <joint name="mbs1/mbs1_link3_link1_link1_joint1" class="mbs1/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs1/mbs1_link3_link1_link1_link1_geom0" class="mbs1/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs1/geom_mbs1_link3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs1/mbs1_link3_link1_link1_link1_geom1" class="mbs1/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs1/geom_mbs1_link3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body pos="2 0 0.03015" quat="0 0 0 1" name="mbs2/">
+      <freejoint name="mbs2/"/>
+      <geom name="mbs2/mbs2_geom0" class="mbs2/" type="box" size="0.044499999999999998 0.044499999999999998 0.03015" material="mbs2/geom_mbs2_geom0_material"/>
+      <geom name="mbs2/mbs2_geom1" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_geom1_material" pos="0.053499999999999999 0 0"/>
+      <geom name="mbs2/mbs2_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_geom2_material" pos="-0.053499999999999999 0 0" quat="0 0 0 1"/>
+      <geom name="mbs2/mbs2_geom3" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_geom3_material" pos="0 0.053499999999999999 0" quat="0.70710700000000004 0 0 0.70710700000000004"/>
+      <geom name="mbs2/mbs2_geom4" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_geom4_material" pos="0 -0.053499999999999999 0" quat="0.70710700000000004 0 0 -0.70710700000000004"/>
+      <body name="mbs2/mbs2_link0" pos="0.079024999999999998 0 0">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs2/mbs2_joint0" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs2/mbs2_link0_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link0_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs2/mbs2_link0_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link0_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs2/mbs2_link0_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link0_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs2/mbs2_link0_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs2/mbs2_link0_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs2/mbs2_link0_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link0_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs2/mbs2_link0_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link0_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs2/mbs2_link0_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link0_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs2/mbs2_link0_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs2/mbs2_link0_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs2/mbs2_link0_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link0_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs2/mbs2_link0_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link0_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs2/mbs2_link0_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link0_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs2/mbs2_link0_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs2/mbs2_link0_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs2/mbs2_link0_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link0_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs2/mbs2_link0_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link0_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs2/mbs2_link0_link1_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link0_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs2/mbs2_link0_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs2/mbs2_link0_link1_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs2/mbs2_link0_link1_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link0_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs2/mbs2_link0_link1_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link0_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs2/mbs2_link1" pos="-0.079024999999999998 0 0" quat="0 0 0 1">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs2/mbs2_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs2/mbs2_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs2/mbs2_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs2/mbs2_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link1_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs2/mbs2_link1_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs2/mbs2_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs2/mbs2_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs2/mbs2_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs2/mbs2_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link1_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs2/mbs2_link1_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs2/mbs2_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs2/mbs2_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs2/mbs2_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs2/mbs2_link1_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs2/mbs2_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs2/mbs2_link1_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs2/mbs2_link1_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs2/mbs2_link1_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs2/mbs2_link1_link1_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link1_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs2/mbs2_link1_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs2/mbs2_link1_link1_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs2/mbs2_link1_link1_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs2/mbs2_link1_link1_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs2/mbs2_link2" pos="0 0.079024999999999998 0" quat="0.70710700000000004 0 0 0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs2/mbs2_joint2" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs2/mbs2_link2_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link2_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs2/mbs2_link2_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link2_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs2/mbs2_link2_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link2_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs2/mbs2_link2_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs2/mbs2_link2_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs2/mbs2_link2_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs2/mbs2_link2_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs2/mbs2_link2_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link2_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs2/mbs2_link2_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs2/mbs2_link2_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs2/mbs2_link2_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs2/mbs2_link2_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs2/mbs2_link2_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link2_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs2/mbs2_link2_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs2/mbs2_link2_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs2/mbs2_link2_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs2/mbs2_link2_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs2/mbs2_link2_link1_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link2_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs2/mbs2_link2_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs2/mbs2_link2_link1_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs2/mbs2_link2_link1_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs2/mbs2_link2_link1_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs2/mbs2_link3" pos="0 -0.079024999999999998 0" quat="0.70710700000000004 0 0 -0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs2/mbs2_joint3" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs2/mbs2_link3_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link3_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs2/mbs2_link3_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link3_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs2/mbs2_link3_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link3_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs2/mbs2_link3_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs2/mbs2_link3_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs2/mbs2_link3_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs2/mbs2_link3_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs2/mbs2_link3_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link3_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs2/mbs2_link3_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs2/mbs2_link3_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs2/mbs2_link3_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs2/mbs2_link3_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs2/mbs2_link3_link1_link1_geom2" class="mbs2/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs2/geom_mbs2_link3_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs2/mbs2_link3_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+              <joint name="mbs2/mbs2_link3_link1_link1_joint1" class="mbs2/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs2/mbs2_link3_link1_link1_link1_geom0" class="mbs2/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs2/geom_mbs2_link3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs2/mbs2_link3_link1_link1_link1_geom1" class="mbs2/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs2/geom_mbs2_link3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body pos="4 0 0.03015" quat="0 0 0 1" name="mbs3/">
+      <freejoint name="mbs3/"/>
+      <geom name="mbs3/mbs3_geom0" class="mbs3/" type="box" size="0.044499999999999998 0.044499999999999998 0.03015" material="mbs3/geom_mbs3_geom0_material"/>
+      <geom name="mbs3/mbs3_geom1" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_geom1_material" pos="0.053499999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+      <geom name="mbs3/mbs3_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_geom2_material" pos="-0.053499999999999999 0 0" quat="0 0 0.70710700000000004 0.70710700000000004"/>
+      <geom name="mbs3/mbs3_geom3" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_geom3_material" pos="0 0.053499999999999999 0" quat="0.5 0.5 0.5 0.5"/>
+      <geom name="mbs3/mbs3_geom4" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_geom4_material" pos="0 -0.053499999999999999 0" quat="0.5 0.5 -0.5 -0.5"/>
+      <body name="mbs3/mbs3_link0" pos="0.079024999999999998 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs3/mbs3_joint0" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs3/mbs3_link0_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link0_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs3/mbs3_link0_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link0_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs3/mbs3_link0_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link0_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs3/mbs3_link0_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs3/mbs3_link0_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs3/mbs3_link0_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link0_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs3/mbs3_link0_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link0_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs3/mbs3_link0_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link0_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs3/mbs3_link0_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs3/mbs3_link0_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs3/mbs3_link0_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link0_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs3/mbs3_link0_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link0_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs3/mbs3_link0_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link0_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs3/mbs3_link0_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs3/mbs3_link0_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs3/mbs3_link0_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link0_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs3/mbs3_link0_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link0_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs3/mbs3_link0_link1_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link0_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs3/mbs3_link0_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs3/mbs3_link0_link1_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs3/mbs3_link0_link1_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link0_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs3/mbs3_link0_link1_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link0_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs3/mbs3_link1" pos="-0.079024999999999998 0 0" quat="0 0 0.70710700000000004 0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs3/mbs3_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs3/mbs3_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs3/mbs3_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs3/mbs3_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs3/mbs3_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs3/mbs3_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs3/mbs3_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs3/mbs3_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs3/mbs3_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs3/mbs3_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs3/mbs3_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs3/mbs3_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs3/mbs3_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs3/mbs3_link1_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs3/mbs3_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs3/mbs3_link1_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs3/mbs3_link1_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs3/mbs3_link1_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs3/mbs3_link1_link1_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link1_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs3/mbs3_link1_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs3/mbs3_link1_link1_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs3/mbs3_link1_link1_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs3/mbs3_link1_link1_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs3/mbs3_link2" pos="0 0.079024999999999998 0" quat="0.5 0.5 0.5 0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs3/mbs3_joint2" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs3/mbs3_link2_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link2_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs3/mbs3_link2_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link2_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs3/mbs3_link2_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link2_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs3/mbs3_link2_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs3/mbs3_link2_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs3/mbs3_link2_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs3/mbs3_link2_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs3/mbs3_link2_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link2_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs3/mbs3_link2_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs3/mbs3_link2_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs3/mbs3_link2_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs3/mbs3_link2_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs3/mbs3_link2_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link2_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs3/mbs3_link2_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs3/mbs3_link2_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs3/mbs3_link2_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs3/mbs3_link2_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs3/mbs3_link2_link1_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link2_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs3/mbs3_link2_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs3/mbs3_link2_link1_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs3/mbs3_link2_link1_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs3/mbs3_link2_link1_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs3/mbs3_link3" pos="0 -0.079024999999999998 0" quat="0.5 0.5 -0.5 -0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs3/mbs3_joint3" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs3/mbs3_link3_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link3_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs3/mbs3_link3_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link3_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs3/mbs3_link3_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link3_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs3/mbs3_link3_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs3/mbs3_link3_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs3/mbs3_link3_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs3/mbs3_link3_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs3/mbs3_link3_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link3_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs3/mbs3_link3_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs3/mbs3_link3_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs3/mbs3_link3_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs3/mbs3_link3_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs3/mbs3_link3_link1_link1_geom2" class="mbs3/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs3/geom_mbs3_link3_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs3/mbs3_link3_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+              <joint name="mbs3/mbs3_link3_link1_link1_joint1" class="mbs3/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs3/mbs3_link3_link1_link1_link1_geom0" class="mbs3/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs3/geom_mbs3_link3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs3/mbs3_link3_link1_link1_link1_geom1" class="mbs3/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs3/geom_mbs3_link3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body pos="6 0 0.03015" quat="0 0 0 1" name="mbs4/">
+      <freejoint name="mbs4/"/>
+      <geom name="mbs4/mbs4_geom0" class="mbs4/" type="box" size="0.044499999999999998 0.044499999999999998 0.03015" material="mbs4/geom_mbs4_geom0_material"/>
+      <geom name="mbs4/mbs4_geom1" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_geom1_material" pos="0.053499999999999999 0 0"/>
+      <geom name="mbs4/mbs4_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_geom2_material" pos="-0.053499999999999999 0 0" quat="0 0 0 1"/>
+      <geom name="mbs4/mbs4_geom3" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_geom3_material" pos="0 0.053499999999999999 0" quat="0.70710700000000004 0 0 0.70710700000000004"/>
+      <geom name="mbs4/mbs4_geom4" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_geom4_material" pos="0 -0.053499999999999999 0" quat="0.70710700000000004 0 0 -0.70710700000000004"/>
+      <body name="mbs4/mbs4_link0" pos="0.079024999999999998 0 0">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs4/mbs4_joint0" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs4/mbs4_link0_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link0_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs4/mbs4_link0_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link0_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs4/mbs4_link0_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link0_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs4/mbs4_link0_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs4/mbs4_link0_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs4/mbs4_link0_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link0_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs4/mbs4_link0_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link0_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs4/mbs4_link0_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link0_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs4/mbs4_link0_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs4/mbs4_link0_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs4/mbs4_link0_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link0_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs4/mbs4_link0_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link0_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs4/mbs4_link0_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link0_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs4/mbs4_link0_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs4/mbs4_link0_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs4/mbs4_link0_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link0_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs4/mbs4_link0_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link0_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs4/mbs4_link0_link1_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link0_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs4/mbs4_link0_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs4/mbs4_link0_link1_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs4/mbs4_link0_link1_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link0_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs4/mbs4_link0_link1_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link0_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs4/mbs4_link1" pos="-0.079024999999999998 0 0" quat="0 0 0 1">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs4/mbs4_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs4/mbs4_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs4/mbs4_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs4/mbs4_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link1_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs4/mbs4_link1_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs4/mbs4_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs4/mbs4_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs4/mbs4_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs4/mbs4_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link1_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs4/mbs4_link1_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs4/mbs4_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs4/mbs4_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs4/mbs4_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs4/mbs4_link1_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs4/mbs4_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs4/mbs4_link1_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs4/mbs4_link1_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs4/mbs4_link1_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs4/mbs4_link1_link1_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link1_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs4/mbs4_link1_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs4/mbs4_link1_link1_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs4/mbs4_link1_link1_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs4/mbs4_link1_link1_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs4/mbs4_link2" pos="0 0.079024999999999998 0" quat="0.70710700000000004 0 0 0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs4/mbs4_joint2" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs4/mbs4_link2_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link2_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs4/mbs4_link2_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link2_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs4/mbs4_link2_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link2_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs4/mbs4_link2_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs4/mbs4_link2_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs4/mbs4_link2_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs4/mbs4_link2_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs4/mbs4_link2_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link2_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs4/mbs4_link2_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs4/mbs4_link2_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs4/mbs4_link2_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs4/mbs4_link2_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs4/mbs4_link2_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link2_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs4/mbs4_link2_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+              <joint name="mbs4/mbs4_link2_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs4/mbs4_link2_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs4/mbs4_link2_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs4/mbs4_link2_link1_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link2_link1_link1_link1_geom2_material" pos="0.05815 0 0"/>
+              <body name="mbs4/mbs4_link2_link1_link1_link1_link1" pos="0.083674999999999999 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs4/mbs4_link2_link1_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs4/mbs4_link2_link1_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs4/mbs4_link2_link1_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs4/mbs4_link3" pos="0 -0.079024999999999998 0" quat="0.70710700000000004 0 0 -0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+        <joint name="mbs4/mbs4_joint3" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs4/mbs4_link3_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link3_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs4/mbs4_link3_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link3_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs4/mbs4_link3_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link3_geom2_material" pos="0.05815 0 0"/>
+        <body name="mbs4/mbs4_link3_link1" pos="0.083674999999999999 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+          <joint name="mbs4/mbs4_link3_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs4/mbs4_link3_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs4/mbs4_link3_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs4/mbs4_link3_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link3_link1_geom2_material" pos="0.05815 0 0"/>
+          <body name="mbs4/mbs4_link3_link1_link1" pos="0.083674999999999999 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.7249900000000003e-05 2.6794100000000002e-05"/>
+            <joint name="mbs4/mbs4_link3_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs4/mbs4_link3_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs4/mbs4_link3_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs4/mbs4_link3_link1_link1_geom2" class="mbs4/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs4/geom_mbs4_link3_link1_link1_geom2_material" pos="0.05815 0 0"/>
+            <body name="mbs4/mbs4_link3_link1_link1_link1" pos="0.083674999999999999 0 0">
+              <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+              <joint name="mbs4/mbs4_link3_link1_link1_joint1" class="mbs4/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs4/mbs4_link3_link1_link1_link1_geom0" class="mbs4/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs4/geom_mbs4_link3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs4/mbs4_link3_link1_link1_link1_geom1" class="mbs4/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs4/geom_mbs4_link3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body pos="8 0 0.03015" quat="0 0 0 1" name="mbs5/">
+      <freejoint name="mbs5/"/>
+      <geom name="mbs5/mbs5_geom0" class="mbs5/" type="box" size="0.044499999999999998 0.044499999999999998 0.03015" material="mbs5/geom_mbs5_geom0_material"/>
+      <geom name="mbs5/mbs5_geom1" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_geom1_material" pos="0.053499999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+      <geom name="mbs5/mbs5_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_geom2_material" pos="-0.053499999999999999 0 0" quat="0 0 0.70710700000000004 0.70710700000000004"/>
+      <geom name="mbs5/mbs5_geom3" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_geom3_material" pos="0 0.053499999999999999 0" quat="0.5 0.5 0.5 0.5"/>
+      <geom name="mbs5/mbs5_geom4" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_geom4_material" pos="0 -0.053499999999999999 0" quat="0.5 0.5 -0.5 -0.5"/>
+      <body name="mbs5/mbs5_link0" pos="0.079024999999999998 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs5/mbs5_joint0" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs5/mbs5_link0_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link0_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs5/mbs5_link0_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link0_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs5/mbs5_link0_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link0_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs5/mbs5_link0_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs5/mbs5_link0_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs5/mbs5_link0_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link0_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs5/mbs5_link0_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link0_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs5/mbs5_link0_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link0_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs5/mbs5_link0_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs5/mbs5_link0_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs5/mbs5_link0_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link0_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs5/mbs5_link0_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link0_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs5/mbs5_link0_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link0_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs5/mbs5_link0_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs5/mbs5_link0_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs5/mbs5_link0_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link0_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs5/mbs5_link0_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link0_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs5/mbs5_link0_link1_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link0_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs5/mbs5_link0_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs5/mbs5_link0_link1_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs5/mbs5_link0_link1_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link0_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs5/mbs5_link0_link1_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link0_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs5/mbs5_link1" pos="-0.079024999999999998 0 0" quat="0 0 0.70710700000000004 0.70710700000000004">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs5/mbs5_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs5/mbs5_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs5/mbs5_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs5/mbs5_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs5/mbs5_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs5/mbs5_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs5/mbs5_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs5/mbs5_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs5/mbs5_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs5/mbs5_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs5/mbs5_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs5/mbs5_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs5/mbs5_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs5/mbs5_link1_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs5/mbs5_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs5/mbs5_link1_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs5/mbs5_link1_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs5/mbs5_link1_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs5/mbs5_link1_link1_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link1_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs5/mbs5_link1_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs5/mbs5_link1_link1_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs5/mbs5_link1_link1_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link1_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs5/mbs5_link1_link1_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link1_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs5/mbs5_link2" pos="0 0.079024999999999998 0" quat="0.5 0.5 0.5 0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs5/mbs5_joint2" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs5/mbs5_link2_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link2_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs5/mbs5_link2_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link2_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs5/mbs5_link2_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link2_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs5/mbs5_link2_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs5/mbs5_link2_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs5/mbs5_link2_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link2_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs5/mbs5_link2_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link2_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs5/mbs5_link2_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link2_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs5/mbs5_link2_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs5/mbs5_link2_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs5/mbs5_link2_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link2_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs5/mbs5_link2_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link2_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs5/mbs5_link2_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link2_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs5/mbs5_link2_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+              <joint name="mbs5/mbs5_link2_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs5/mbs5_link2_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link2_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs5/mbs5_link2_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link2_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              <geom name="mbs5/mbs5_link2_link1_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link2_link1_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+              <body name="mbs5/mbs5_link2_link1_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+                <joint name="mbs5/mbs5_link2_link1_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+                <geom name="mbs5/mbs5_link2_link1_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link2_link1_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+                <geom name="mbs5/mbs5_link2_link1_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link2_link1_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="mbs5/mbs5_link3" pos="0 -0.079024999999999998 0" quat="0.5 0.5 -0.5 -0.5">
+        <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+        <joint name="mbs5/mbs5_joint3" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+        <geom name="mbs5/mbs5_link3_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link3_geom0_material" pos="0.017999999999999999 0 0"/>
+        <geom name="mbs5/mbs5_link3_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link3_geom1_material" pos="0.048149999999999998 0 0"/>
+        <geom name="mbs5/mbs5_link3_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link3_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+        <body name="mbs5/mbs5_link3_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+          <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+          <joint name="mbs5/mbs5_link3_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+          <geom name="mbs5/mbs5_link3_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link3_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+          <geom name="mbs5/mbs5_link3_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link3_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+          <geom name="mbs5/mbs5_link3_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link3_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+          <body name="mbs5/mbs5_link3_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+            <inertial pos="0.029737599999999999 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.088999999999999996" diaginertia="6.0309500000000003e-05 4.9527799999999997e-05 2.4516200000000001e-05"/>
+            <joint name="mbs5/mbs5_link3_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+            <geom name="mbs5/mbs5_link3_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link3_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+            <geom name="mbs5/mbs5_link3_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link3_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            <geom name="mbs5/mbs5_link3_link1_link1_geom2" class="mbs5/" type="box" size="0.0089999999999999993 0.026499999999999999 0.0082945499999999995" material="mbs5/geom_mbs5_link3_link1_link1_geom2_material" pos="0.05815 0 0" quat="0.70710700000000004 0.70710700000000004 0 0"/>
+            <body name="mbs5/mbs5_link3_link1_link1_link1" pos="0.083674999999999999 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+              <inertial pos="0.025730800000000002 0 0" quat="0 0.70710700000000004 0 0.70710700000000004" mass="0.078" diaginertia="4.7305400000000003e-05 3.65684e-05 2.3966999999999999e-05"/>
+              <joint name="mbs5/mbs5_link3_link1_link1_joint1" class="mbs5/" pos="0 0 0" axis="0 1 0" range="-1.0471999999999999 1.0471999999999999" armature="0.002"/>
+              <geom name="mbs5/mbs5_link3_link1_link1_link1_geom0" class="mbs5/" type="box" size="0.029149999999999999 0.025600000000000001 0.01" material="mbs5/geom_mbs5_link3_link1_link1_link1_geom0_material" pos="0.017999999999999999 0 0"/>
+              <geom name="mbs5/mbs5_link3_link1_link1_link1_geom1" class="mbs5/" type="box" size="0.001 0.026499999999999999 0.026499999999999999" material="mbs5/geom_mbs5_link3_link1_link1_link1_geom1_material" pos="0.048149999999999998 0 0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="mbs1/actuator_position_mbs1_joint0" class="mbs1/" joint="mbs1/mbs1_joint0" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_joint0" class="mbs1/" joint="mbs1/mbs1_joint0" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link0_joint1" class="mbs1/" joint="mbs1/mbs1_link0_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link0_joint1" class="mbs1/" joint="mbs1/mbs1_link0_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link0_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link0_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link0_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link0_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link0_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link0_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link0_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_joint1" class="mbs1/" joint="mbs1/mbs1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_joint1" class="mbs1/" joint="mbs1/mbs1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link1_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link1_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_joint2" class="mbs1/" joint="mbs1/mbs1_joint2" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_joint2" class="mbs1/" joint="mbs1/mbs1_joint2" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link2_joint1" class="mbs1/" joint="mbs1/mbs1_link2_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link2_joint1" class="mbs1/" joint="mbs1/mbs1_link2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link2_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link2_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link2_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link2_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link2_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link2_link1_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_joint3" class="mbs1/" joint="mbs1/mbs1_joint3" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_joint3" class="mbs1/" joint="mbs1/mbs1_joint3" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link3_joint1" class="mbs1/" joint="mbs1/mbs1_link3_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link3_joint1" class="mbs1/" joint="mbs1/mbs1_link3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link3_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link3_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link3_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs1/actuator_position_mbs1_link3_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs1/actuator_velocity_mbs1_link3_link1_link1_joint1" class="mbs1/" joint="mbs1/mbs1_link3_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_joint0" class="mbs2/" joint="mbs2/mbs2_joint0" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_joint0" class="mbs2/" joint="mbs2/mbs2_joint0" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link0_joint1" class="mbs2/" joint="mbs2/mbs2_link0_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link0_joint1" class="mbs2/" joint="mbs2/mbs2_link0_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link0_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link0_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link0_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link0_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link0_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link0_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link0_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_joint1" class="mbs2/" joint="mbs2/mbs2_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_joint1" class="mbs2/" joint="mbs2/mbs2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link1_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link1_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_joint2" class="mbs2/" joint="mbs2/mbs2_joint2" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_joint2" class="mbs2/" joint="mbs2/mbs2_joint2" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link2_joint1" class="mbs2/" joint="mbs2/mbs2_link2_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link2_joint1" class="mbs2/" joint="mbs2/mbs2_link2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link2_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link2_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link2_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link2_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link2_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link2_link1_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_joint3" class="mbs2/" joint="mbs2/mbs2_joint3" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_joint3" class="mbs2/" joint="mbs2/mbs2_joint3" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link3_joint1" class="mbs2/" joint="mbs2/mbs2_link3_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link3_joint1" class="mbs2/" joint="mbs2/mbs2_link3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link3_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link3_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link3_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs2/actuator_position_mbs2_link3_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs2/actuator_velocity_mbs2_link3_link1_link1_joint1" class="mbs2/" joint="mbs2/mbs2_link3_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_joint0" class="mbs3/" joint="mbs3/mbs3_joint0" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_joint0" class="mbs3/" joint="mbs3/mbs3_joint0" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link0_joint1" class="mbs3/" joint="mbs3/mbs3_link0_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link0_joint1" class="mbs3/" joint="mbs3/mbs3_link0_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link0_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link0_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link0_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link0_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link0_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link0_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link0_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_joint1" class="mbs3/" joint="mbs3/mbs3_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_joint1" class="mbs3/" joint="mbs3/mbs3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link1_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link1_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_joint2" class="mbs3/" joint="mbs3/mbs3_joint2" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_joint2" class="mbs3/" joint="mbs3/mbs3_joint2" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link2_joint1" class="mbs3/" joint="mbs3/mbs3_link2_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link2_joint1" class="mbs3/" joint="mbs3/mbs3_link2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link2_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link2_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link2_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link2_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link2_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link2_link1_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_joint3" class="mbs3/" joint="mbs3/mbs3_joint3" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_joint3" class="mbs3/" joint="mbs3/mbs3_joint3" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link3_joint1" class="mbs3/" joint="mbs3/mbs3_link3_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link3_joint1" class="mbs3/" joint="mbs3/mbs3_link3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link3_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link3_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link3_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs3/actuator_position_mbs3_link3_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs3/actuator_velocity_mbs3_link3_link1_link1_joint1" class="mbs3/" joint="mbs3/mbs3_link3_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_joint0" class="mbs4/" joint="mbs4/mbs4_joint0" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_joint0" class="mbs4/" joint="mbs4/mbs4_joint0" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link0_joint1" class="mbs4/" joint="mbs4/mbs4_link0_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link0_joint1" class="mbs4/" joint="mbs4/mbs4_link0_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link0_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link0_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link0_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link0_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link0_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link0_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link0_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_joint1" class="mbs4/" joint="mbs4/mbs4_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_joint1" class="mbs4/" joint="mbs4/mbs4_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link1_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link1_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_joint2" class="mbs4/" joint="mbs4/mbs4_joint2" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_joint2" class="mbs4/" joint="mbs4/mbs4_joint2" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link2_joint1" class="mbs4/" joint="mbs4/mbs4_link2_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link2_joint1" class="mbs4/" joint="mbs4/mbs4_link2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link2_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link2_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link2_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link2_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link2_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link2_link1_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_joint3" class="mbs4/" joint="mbs4/mbs4_joint3" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_joint3" class="mbs4/" joint="mbs4/mbs4_joint3" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link3_joint1" class="mbs4/" joint="mbs4/mbs4_link3_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link3_joint1" class="mbs4/" joint="mbs4/mbs4_link3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link3_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link3_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link3_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs4/actuator_position_mbs4_link3_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs4/actuator_velocity_mbs4_link3_link1_link1_joint1" class="mbs4/" joint="mbs4/mbs4_link3_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_joint0" class="mbs5/" joint="mbs5/mbs5_joint0" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_joint0" class="mbs5/" joint="mbs5/mbs5_joint0" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link0_joint1" class="mbs5/" joint="mbs5/mbs5_link0_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link0_joint1" class="mbs5/" joint="mbs5/mbs5_link0_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link0_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link0_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link0_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link0_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link0_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link0_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link0_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_joint1" class="mbs5/" joint="mbs5/mbs5_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_joint1" class="mbs5/" joint="mbs5/mbs5_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link1_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link1_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link1_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_joint2" class="mbs5/" joint="mbs5/mbs5_joint2" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_joint2" class="mbs5/" joint="mbs5/mbs5_joint2" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link2_joint1" class="mbs5/" joint="mbs5/mbs5_link2_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link2_joint1" class="mbs5/" joint="mbs5/mbs5_link2_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link2_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link2_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link2_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link2_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link2_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link2_link1_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link2_link1_link1_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_joint3" class="mbs5/" joint="mbs5/mbs5_joint3" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_joint3" class="mbs5/" joint="mbs5/mbs5_joint3" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link3_joint1" class="mbs5/" joint="mbs5/mbs5_link3_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link3_joint1" class="mbs5/" joint="mbs5/mbs5_link3_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link3_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link3_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link3_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link3_link1_joint1" kv="0.050000000000000003"/>
+    <position name="mbs5/actuator_position_mbs5_link3_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link3_link1_link1_joint1" kp="5"/>
+    <velocity name="mbs5/actuator_velocity_mbs5_link3_link1_link1_joint1" class="mbs5/" joint="mbs5/mbs5_link3_link1_link1_joint1" kv="0.050000000000000003"/>
+  </actuator>
+</mujoco>

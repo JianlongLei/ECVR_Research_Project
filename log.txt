@@ -1,0 +1,2037 @@
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1730806080066148
+Rng seed: 1730806080066148
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1730806080077677
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1730806290032295
+Rng seed: 1730806290032295
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1730806290043182
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1730806798312538
+Rng seed: 1730806798312538
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1730806798325154
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732022638432551
+Rng seed: 1732022638433556
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732022638445149
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.14463240788468312
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.03524112695916562
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2732467991193816
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.12395923695200903
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.08146567549646072
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732033972134371
+Rng seed: 1732033972135376
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732033972151206
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.34211865406893627
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.32459913156599196
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.24545596021262886
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.0841547417120522
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.4158761647403808
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732035152050448
+Rng seed: 1732035152052079
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732035152087949
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.0832459677557737
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.30072543278636926
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.9399722475294421
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.0992279595638671
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.8802694383907113
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732046889583645
+Rng seed: 1732046889584655
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732046889603527
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.10444067802459256
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.28943614648635463
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2558229470385742
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.14556860037445446
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.10319140871333776
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732053742009719
+Rng seed: 1732053742009719
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732053742024218
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.36356028292445536
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.13861301157181646
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.05683946117165106
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.11918794772172103
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.05595328736387226
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732064453140101
+Rng seed: 1732064453140612
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732064453153150
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.14621345189900042
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.17950130952181242
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.04410491431945279
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.1823925803504245
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.10444760157017702
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+----------------
+----------------
+Start experiment
+Start experiment
+Rng seed: 1732066517566554
+Rng seed: 1732066517566554
+Rng seed: 1732066517568054
+Rng seed: 1732066517568054
+Saving experiment configuration.
+Saving experiment configuration.
+Generating initial population.
+Generating initial population.
+Rng seed: 1732066517577069
+Rng seed: 1732066517577069
+Evaluating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.100077524761951
+Best Fitness: -0.100077524761951
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: 0.08125425587251534
+Best Fitness: 0.08125425587251534
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.05850787158662596
+Best Fitness: -0.05850787158662596
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: 0.031767185262043224
+Best Fitness: 0.031767185262043224
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.36818440230305693
+Best Fitness: -0.36818440230305693
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+End brain learner optimization process.
+Saving generation.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 0
+Scene 0 done.
+Scene 0 done.
+Finished batch.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732067107234874
+Rng seed: 1732067107234874
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732067107256205
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3501540265814166
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.08178782066919271
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.18014060908321494
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.09044880036157599
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.36999471702139936
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732067540715508
+Rng seed: 1732067540715508
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732067540728536
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2600024634557453
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.007345829704909962
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.05894399136719852
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.27051653633879325
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.4234331257381927
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732070060365242
+Rng seed: 1732070060366298
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732070060390119
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.1976728863783886
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.47505542023684516
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.4386419275123004
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2124061847779524
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.07227090781202661
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732070173849770
+Rng seed: 1732070173850774
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732070173871152
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.5237564311730387
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.011286861118463998
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3921260668886648
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.10969253012293725
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.1461566400130434
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732070406722515
+Rng seed: 1732070406724085
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732070406741589
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.5875673334058134
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.35017130945707475
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732070995897333
+Rng seed: 1732070995897333
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732070995918994
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.36612006221861826
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.04860866255606949
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.09948576803018994
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.14461626492501117
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.620461075015553
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732098449836021
+Rng seed: 1732098449837024
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732098449860648
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.1246770709043763
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.060699412294055066
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.1795082314810132
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.11323401445588249
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.37875805857961864
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+----------------
+----------------
+Start experiment
+Start experiment
+Rng seed: 1732098747026971
+Rng seed: 1732098747026971
+Rng seed: 1732098747026971
+Rng seed: 1732098747026971
+Saving experiment configuration.
+Saving experiment configuration.
+Generating initial population.
+Generating initial population.
+Rng seed: 1732098747034483
+Rng seed: 1732098747034483
+Evaluating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.24216497880267368
+Best Fitness: -0.24216497880267368
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.22967017172657614
+Best Fitness: -0.22967017172657614
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: 0.07422227940217896
+Best Fitness: 0.07422227940217896
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.538917236515676
+Best Fitness: -0.538917236515676
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.1426240688403056
+Best Fitness: -0.1426240688403056
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+End brain learner optimization process.
+Saving generation.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 0
+Scene 0 done.
+Scene 0 done.
+Finished batch.
+Finished batch.
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+         New log starts here.          
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+----------------
+----------------
+----------------
+Start experiment
+Start experiment
+Start experiment
+Rng seed: 1732099071671181
+Rng seed: 1732099071671181
+Rng seed: 1732099071671181
+Rng seed: 1732099071671181
+Rng seed: 1732099071671181
+Rng seed: 1732099071671181
+Saving experiment configuration.
+Saving experiment configuration.
+Saving experiment configuration.
+Generating initial population.
+Generating initial population.
+Generating initial population.
+Rng seed: 1732099071681681
+Rng seed: 1732099071681681
+Rng seed: 1732099071681681
+Evaluating initial population.
+Evaluating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.4419494719002326
+Best Fitness: -0.4419494719002326
+Best Fitness: -0.4419494719002326
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: 0.11409248667799865
+Best Fitness: 0.11409248667799865
+Best Fitness: 0.11409248667799865
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.17178767045977425
+Best Fitness: -0.17178767045977425
+Best Fitness: -0.17178767045977425
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.22980185535494824
+Best Fitness: -0.22980185535494824
+Best Fitness: -0.22980185535494824
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: 0.12242354231518748
+Best Fitness: 0.12242354231518748
+Best Fitness: 0.12242354231518748
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+End brain learner optimization process.
+End brain learner optimization process.
+Saving generation.
+Saving generation.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 0
+Simulating scene 0
+Scene 0 done.
+Scene 0 done.
+Scene 0 done.
+Finished batch.
+Finished batch.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732099534884174
+Rng seed: 1732099534884174
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732099534905227
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.019057186648459873
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.45757351554482567
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.02972178995404348
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.055778186084127795
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.06871807694524187
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732099831728292
+Rng seed: 1732099831729287
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732099831751668
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.03708908872193112
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3796826225466798
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.16587356955823318
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.41207929155358725
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.4316560961560014
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732100210132335
+Rng seed: 1732100210132335
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732100210146536
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.35832877659475426
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.08230417470914644
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.25076952832824106
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.06901715385061943
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.4443432414888923
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732100510681348
+Rng seed: 1732100510681348
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732100510694203
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.10021966184600567
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.358795039825191
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.09112921835843751
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.17212429784795658
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2387951089088867
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732100727482448
+Rng seed: 1732100727482448
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732100727494838
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.11289422140922784
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3432142002537906
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.6923091291623789
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.6224600605565176
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.12384909617630546
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732100921910278
+Rng seed: 1732100921910278
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732100921924813
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.2951966145566123
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.12060562995254165
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.27365681822585786
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.21413957492952773
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.504384191423205
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+----------------
+----------------
+Start experiment
+Start experiment
+Rng seed: 1732101261104910
+Rng seed: 1732101261104910
+Rng seed: 1732101261104910
+Rng seed: 1732101261104910
+Saving experiment configuration.
+Saving experiment configuration.
+Generating initial population.
+Generating initial population.
+Rng seed: 1732101261113695
+Rng seed: 1732101261113695
+Evaluating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.16187028352382446
+Best Fitness: -0.16187028352382446
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: 0.17323558700645122
+Best Fitness: 0.17323558700645122
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.22714598351166287
+Best Fitness: -0.22714598351166287
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.13794408637941982
+Best Fitness: -0.13794408637941982
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Best Fitness: -0.27400871093926016
+Best Fitness: -0.27400871093926016
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+End brain learner optimization process.
+Saving generation.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 0
+Scene 0 done.
+Scene 0 done.
+Finished batch.
+Finished batch.
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+         New log starts here.          
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+=======================================
+----------------
+----------------
+----------------
+Start experiment
+Start experiment
+Start experiment
+Rng seed: 1732101427211079
+Rng seed: 1732101427211079
+Rng seed: 1732101427211079
+Rng seed: 1732101427211079
+Rng seed: 1732101427211079
+Rng seed: 1732101427211079
+Saving experiment configuration.
+Saving experiment configuration.
+Saving experiment configuration.
+Generating initial population.
+Generating initial population.
+Generating initial population.
+Rng seed: 1732101427220815
+Rng seed: 1732101427220815
+Rng seed: 1732101427220815
+Evaluating initial population.
+Evaluating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.024389943569926797
+Best Fitness: -0.024389943569926797
+Best Fitness: -0.024389943569926797
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: 0.2378497170907812
+Best Fitness: 0.2378497170907812
+Best Fitness: 0.2378497170907812
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.07277392014620065
+Best Fitness: -0.07277392014620065
+Best Fitness: -0.07277392014620065
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -1.0231652033980665
+Best Fitness: -1.0231652033980665
+Best Fitness: -1.0231652033980665
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Finished batch.
+Finished batch.
+Best Fitness: -0.36562859800967545
+Best Fitness: -0.36562859800967545
+Best Fitness: -0.36562859800967545
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+End brain learner optimization process.
+End brain learner optimization process.
+Saving generation.
+Saving generation.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 0
+Simulating scene 0
+Scene 0 done.
+Scene 0 done.
+Scene 0 done.
+Finished batch.
+Finished batch.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732101597176598
+Rng seed: 1732101597176598
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732101597197167
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.02491857800638758
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.7623300174990064
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.28160191643403154
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.23876630821461364
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.45743553246555235
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732101688744389
+Rng seed: 1732101688744389
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732101688758014
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.18399588425630792
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.05978792675991973
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.2585042528496882
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.32300291360568817
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.6544987508866187
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732101898753894
+Rng seed: 1732101898754890
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732101898767770
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.02604948614097352
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.012993024884515607
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.41711486628029915
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.05259099555261759
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.21803884242565238
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102039437819
+Rng seed: 1732102039437819
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102039451510
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.32779993851148626
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102056836048
+Rng seed: 1732102056836048
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102056851573
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -1.0022676616414243
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.4037629111184427
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.06416104831950328
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.0042915423739229575
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.2313847026933109
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102300652163
+Rng seed: 1732102300652163
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102300663960
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.5409517369377496
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.12663913341401248
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3038477288781296
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.03239899467117027
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.15651433977027907
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102481484699
+Rng seed: 1732102481484699
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102481499604
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.9261835082429156
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.04336844282699084
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.14092778951690405
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.188434939005994
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.36431185216042383
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102634008930
+Rng seed: 1732102634009921
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102634022601
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.11987386932214983
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.24100272762336067
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.24933793289792222
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.26139358473473645
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.09340135905998126
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732102838812448
+Rng seed: 1732102838813953
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732102838835215
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.9201083660596032
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.22161344180062903
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.015120684271892667
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.3428374953279047
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.44797431577097624
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732103276327253
+Rng seed: 1732103276327253
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732103276340497
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.04184168756116846
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.34160546517791907
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.11702087260349331
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.0708278365402828
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.14620753629184263
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732103612325810
+Rng seed: 1732103612325810
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732103612343097
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.18141263789403397
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.047977453959332284
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.09593127319204331
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.12793373320858514
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.07394952287152845
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732103675413891
+Rng seed: 1732103675413891
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732103675427988
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732103682583407
+Rng seed: 1732103682583916
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732103682597509
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.21230097661674496
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.09539470498271113
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.010231748203397638
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.02437909488600476
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.241787417241406
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732104014292265
+Rng seed: 1732104014292265
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732104014311721
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.31472265682065337
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.20392809313362087
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.04767291028727186
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.1617529098543365
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.578510017284417
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732104577374429
+Rng seed: 1732104577375430
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732104577393412
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.14111182367711883
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.1082732662435898
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.530156866070107
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.36184558012128043
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: 0.04674372926546391
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1732104913513942
+Rng seed: 1732104913514935
+Saving experiment configuration.
+Generating initial population.
+Rng seed: 1732104913527957
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.08230875752550981
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.3780312242416535
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.37274947993812285
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.36341069796231773
+CMAES-Learner Gen: 1 / 1.
+Starting simulation batch with MuJoCo.
+Finished batch.
+Best Fitness: -0.45018353259741356
+Total Robots With No Active Hinges: 0
+Total Robots With 1-D Brain Params: 0
+End brain learner optimization process.
+Saving generation.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Scene 0 done.
+Finished batch.

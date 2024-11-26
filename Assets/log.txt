@@ -1,0 +1,23 @@
+=======================================
+=======================================
+=======================================
+         New log starts here.          
+=======================================
+=======================================
+=======================================
+----------------
+Start experiment
+Rng seed: 1725388163131879
+Rng seed: 1725388163132325
+Saving experiment configuration.
+Rng seed: 1725388163154032
+Generating initial population.
+Evaluating initial population.
+Start brain learner optimization process for the population
+CMAES-Learner Gen: 1 / 5.
+Starting simulation batch with MuJoCo.
+Simulating scene 0
+Simulating scene 1
+Simulating scene 2
+Simulating scene 3
+Simulating scene 4
