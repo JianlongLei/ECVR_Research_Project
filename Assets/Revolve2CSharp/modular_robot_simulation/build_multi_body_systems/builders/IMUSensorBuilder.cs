@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
-using ModularRobot.Mapping;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
+using Revolve2.Mapping;
+using Revolve2.Robot;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
+using Sensors = Revolve2.Sensors;
 
-namespace ModularRobot.Builders
+namespace Revolve2.Builders
 {
     public class IMUSensorBuilder : Builder
     {
@@ -28,7 +30,7 @@ namespace ModularRobot.Builders
         {
             // Add the IMU sensor to the multi-body system
             var imuPose = new Pose(_pose.Position + _imuLocation, _pose.Orientation);
-            var imuSensor = new IMUSensor(_pose.Position, _pose.Orientation);
+            var imuSensor = new Sensors.IMUSensor(_pose);
             bodyToMultiBodySystemMapping.IMUToSimIMU[new UUIDKey<IMUSensor>(_sensor)] = imuSensor;
             _rigidBody.Sensors.AddSensor(imuSensor);
 

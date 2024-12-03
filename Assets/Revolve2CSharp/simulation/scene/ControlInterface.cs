@@ -1,6 +1,6 @@
-using ModularRobot.Joints;
+using Revolve2.Joints;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Interface for controlling a scene during simulation.

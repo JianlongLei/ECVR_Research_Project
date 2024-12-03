@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// The core module of a modular robot.

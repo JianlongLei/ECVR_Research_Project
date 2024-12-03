@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents an Active Hinge V2 module for a modular robot.

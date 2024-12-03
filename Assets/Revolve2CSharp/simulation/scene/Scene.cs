@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using Revolve2.Robot;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Represents a simulation scene containing multi-body systems.

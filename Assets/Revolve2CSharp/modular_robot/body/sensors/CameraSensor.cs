@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     public class CameraSensor : Sensor
     {

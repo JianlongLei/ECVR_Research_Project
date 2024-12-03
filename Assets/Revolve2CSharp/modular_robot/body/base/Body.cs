@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents the body of a modular robot.

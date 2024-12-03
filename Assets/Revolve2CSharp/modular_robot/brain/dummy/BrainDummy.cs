@@ -1,4 +1,4 @@
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// A brain that does nothing.

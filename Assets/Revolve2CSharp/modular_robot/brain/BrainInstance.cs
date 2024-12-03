@@ -1,4 +1,4 @@
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents an instance of a brain that performs the control of a modular robot.

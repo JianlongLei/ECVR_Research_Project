@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Converters;
-using ModularRobot.Handlers;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
+using Revolve2.Converters;
+using Revolve2.Handlers;
+using Revolve2.Robot;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Scenes
+namespace Revolve2.Scenes
 {
     /// <summary>
     /// Represents a scene of modular robots on a terrain.

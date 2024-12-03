@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using ModularRobot.Geo;
+using Revolve2.Geo;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Utility for converting terrain into a multi-body system.

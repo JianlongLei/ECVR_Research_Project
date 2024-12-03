@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Simulation;
+using Revolve2.Robot;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents a specific state of a modular robot simulation within a scene.

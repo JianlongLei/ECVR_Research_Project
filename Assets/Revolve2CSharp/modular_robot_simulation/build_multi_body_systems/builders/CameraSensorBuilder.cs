@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Mapping;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
-using CamSim = ModularRobot.Sensors;
+using Revolve2.Mapping;
+using Revolve2.Robot;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
+using CamSim = Revolve2.Sensors;
 
-namespace ModularRobot.Builders
+namespace Revolve2.Builders
 {
     public class CameraSensorBuilder : Builder
     {
@@ -25,7 +26,7 @@ namespace ModularRobot.Builders
             BodyToMultiBodySystemMapping bodyToMultiBodySystemMapping)
         {
             // Add the camera sensor to the multi-body system
-            CameraSensor sensor = new CameraSensor(_pose.Position, _pose.Orientation, _sensor.CameraSize);
+            CamSim.CameraSensor sensor = new CamSim.CameraSensor(_pose, _sensor.CameraSize);
             bodyToMultiBodySystemMapping.CameraToSimCamera[new UUIDKey<CameraSensor>(_sensor)] = sensor;
             _rigidBody.Sensors.AddSensor(sensor);
 

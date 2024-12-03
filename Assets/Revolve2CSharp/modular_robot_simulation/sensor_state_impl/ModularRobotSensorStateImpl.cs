@@ -1,10 +1,12 @@
 using System;
-using ModularRobot.Mapping;
-using ModularRobot.Sensors;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
+using Revolve2.Mapping;
+using Revolve2.Robot;
+using Revolve2.Sensors;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
+using Sensors = Revolve2.Sensors;
 
-namespace ModularRobot.SensorStates
+namespace Revolve2.SensorStates
 {
     /// <summary>
     /// Implements the modular robot sensor state.
@@ -32,11 +34,11 @@ namespace ModularRobot.SensorStates
             return new ActiveHingeSensorStateImpl(_simulationState, jointHinge);
         }
 
-        public override IMUSensorState GetIMUSensorState(IMUSensor sensor)
+        public override IMUSensorState GetIMUSensorState(Robot.IMUSensor sensor)
         {
             if (sensor == null) throw new ArgumentNullException(nameof(sensor));
 
-            if (!_bodyToMultiBodySystemMapping.IMUToSimIMU.TryGetValue(new UUIDKey<IMUSensor>(sensor), out var imuSensor))
+            if (!_bodyToMultiBodySystemMapping.IMUToSimIMU.TryGetValue(new UUIDKey<Robot.IMUSensor>(sensor), out var imuSensor))
             {
                 throw new InvalidOperationException("IMU not in scene.");
             }
@@ -44,11 +46,11 @@ namespace ModularRobot.SensorStates
             return new IMUSensorStateImpl(_simulationState, _bodyToMultiBodySystemMapping.MultiBodySystem, imuSensor);
         }
 
-        public override CameraSensorState GetCameraSensorState(CameraSensor sensor)
+        public override CameraSensorState GetCameraSensorState(Robot.CameraSensor sensor)
         {
             if (sensor == null) throw new ArgumentNullException(nameof(sensor));
 
-            if (!_bodyToMultiBodySystemMapping.CameraToSimCamera.TryGetValue(new UUIDKey<CameraSensor>(sensor), out var cameraSensor))
+            if (!_bodyToMultiBodySystemMapping.CameraToSimCamera.TryGetValue(new UUIDKey<Robot.CameraSensor>(sensor), out var cameraSensor))
             {
                 throw new InvalidOperationException("Camera not in scene.");
             }

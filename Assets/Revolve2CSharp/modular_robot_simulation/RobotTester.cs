@@ -1,8 +1,9 @@
 using System;
-using ModularRobot.Scenes;
-using ModularRobot.Simulation;
+using Revolve2.Robot;
+using Revolve2.Scenes;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Utility to test a robot on a specified terrain using a simulator.

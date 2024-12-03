@@ -1,4 +1,4 @@
-namespace ModularRobot.Sensors
+namespace Revolve2.Sensors
 {
     /// <summary>
     /// Represents the state of an active hinge sensor.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     public class AttachedSensors
     {

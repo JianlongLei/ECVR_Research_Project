@@ -1,7 +1,7 @@
 using System;
-using ModularRobot.Utilities;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Geo
+namespace Revolve2.Geo
 {
     /// <summary>
     /// Represents an abstract texture for geometric models.

@@ -1,4 +1,4 @@
-namespace ModularRobot.Rendering
+namespace Revolve2.Rendering
 {
     /// <summary>
     /// Interface for rendering simulations.

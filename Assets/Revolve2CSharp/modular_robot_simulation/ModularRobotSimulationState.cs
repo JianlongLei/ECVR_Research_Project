@@ -1,7 +1,8 @@
 using System;
-using ModularRobot.Simulation;
+using Revolve2.Robot;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents the state of a modular robot at a specific moment in a simulation.

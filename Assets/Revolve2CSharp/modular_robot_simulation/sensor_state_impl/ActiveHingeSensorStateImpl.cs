@@ -1,9 +1,9 @@
 using System;
-using ModularRobot.Joints;
-using ModularRobot.Sensors;
-using ModularRobot.Simulation;
+using Revolve2.Joints;
+using Revolve2.Sensors;
+using Revolve2.Simulation;
 
-namespace ModularRobot.SensorStates
+namespace Revolve2.SensorStates
 {
     /// <summary>
     /// Implements the active hinge sensor state.

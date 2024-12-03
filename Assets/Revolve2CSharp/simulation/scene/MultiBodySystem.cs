@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using ModularRobot.Geo;
-using ModularRobot.Joints;
-using ModularRobot.Utilities;
+using Revolve2.Geo;
+using Revolve2.Joints;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Represents a graph of interconnected rigid bodies, joints, and objects such as cameras.

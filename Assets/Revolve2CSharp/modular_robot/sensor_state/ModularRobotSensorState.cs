@@ -1,6 +1,6 @@
-using ModularRobot.Sensors;
+using Revolve2.Sensors;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents the state of a modular robot's sensors.

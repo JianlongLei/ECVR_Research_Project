@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Provides functionality to generate a CPG network structure based on neighboring active hinges.

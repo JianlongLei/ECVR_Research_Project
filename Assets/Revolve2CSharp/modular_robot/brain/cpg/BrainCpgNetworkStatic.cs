@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents a static CPG network brain where weights and states are predefined.

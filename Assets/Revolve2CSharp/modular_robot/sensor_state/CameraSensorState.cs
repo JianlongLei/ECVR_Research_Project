@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot.Sensors
+namespace Revolve2.Sensors
 {
     /// <summary>
     /// Represents the state of a camera sensor.

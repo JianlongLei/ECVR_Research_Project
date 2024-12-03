@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Represents an axis-aligned bounding box (AABB).

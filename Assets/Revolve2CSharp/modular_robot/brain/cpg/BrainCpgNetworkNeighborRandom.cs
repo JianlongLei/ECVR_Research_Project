@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// A CPG brain with random weights between neurons.

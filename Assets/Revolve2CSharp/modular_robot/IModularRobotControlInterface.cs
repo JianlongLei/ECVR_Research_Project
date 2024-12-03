@@ -1,4 +1,4 @@
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Interface for controlling modular robots.

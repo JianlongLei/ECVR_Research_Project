@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Settings for recording a simulation.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents a CPG brain instance that controls modular robots.

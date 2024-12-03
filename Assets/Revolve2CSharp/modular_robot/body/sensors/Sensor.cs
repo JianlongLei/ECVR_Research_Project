@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     public abstract class Sensor:IOrientation
     {

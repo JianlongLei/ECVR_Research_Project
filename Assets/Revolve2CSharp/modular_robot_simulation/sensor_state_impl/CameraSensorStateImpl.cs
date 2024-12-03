@@ -1,9 +1,9 @@
 using System;
 using System.Drawing;
-using ModularRobot.Sensors;
-using ModularRobot.Simulation;
+using Revolve2.Sensors;
+using Revolve2.Simulation;
 
-namespace ModularRobot.SensorStates
+namespace Revolve2.SensorStates
 {
     /// <summary>
     /// Implements the simulation state for a camera sensor.

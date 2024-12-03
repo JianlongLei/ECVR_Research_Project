@@ -4,10 +4,10 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 using System.Numerics;
-using ModularRobot.Geo;
-using ModularRobot.Joints;
+using Revolve2.Geo;
+using Revolve2.Joints;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Utility to convert a multi-body system into URDF format.

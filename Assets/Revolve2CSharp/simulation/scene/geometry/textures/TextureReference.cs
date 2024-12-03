@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents texture reference information for simulators.

@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Control;
-using ModularRobot.Mapping;
-using ModularRobot.SensorStates;
-using ModularRobot.Simulation;
+using Revolve2.Control;
+using Revolve2.Mapping;
+using Revolve2.Robot;
+using Revolve2.SensorStates;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Handlers
+namespace Revolve2.Handlers
 {
     /// <summary>
     /// Implements the simulation handler for a modular robot scene.

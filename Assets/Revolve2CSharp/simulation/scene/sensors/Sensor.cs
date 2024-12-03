@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot.Sensors
+namespace Revolve2.Sensors
 {
     /// <summary>
     /// Base class for sensors in the modular robot framework.

@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents a theoretical location on the parent module for the child to be attached to.

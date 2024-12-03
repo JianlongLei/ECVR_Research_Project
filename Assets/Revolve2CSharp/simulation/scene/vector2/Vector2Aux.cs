@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace ModularRobot.Vector
+namespace Revolve2.Vector
 {
     /// <summary>
     /// Provides utility methods for creating and manipulating 2D vectors.

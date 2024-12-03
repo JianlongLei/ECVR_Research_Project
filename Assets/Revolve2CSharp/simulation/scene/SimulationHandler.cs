@@ -1,6 +1,6 @@
-using ModularRobot.Simulation;
+using Revolve2.Simulation;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Base class for handling a simulation, which includes, for example, controlling robots.

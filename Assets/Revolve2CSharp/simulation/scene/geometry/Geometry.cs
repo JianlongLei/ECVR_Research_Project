@@ -1,8 +1,8 @@
 using System;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Geo
+namespace Revolve2.Geo
 {
     /// <summary>
     /// Represents a base class for geometries describing parts of a rigid body.

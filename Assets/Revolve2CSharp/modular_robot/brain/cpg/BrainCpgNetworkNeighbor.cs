@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// A CPG brain with active hinges that are connected if they are within 2 jumps in the modular robot's tree structure.

@@ -1,6 +1,6 @@
-using ModularRobot.Simulation;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Geo
+namespace Revolve2.Geo
 {
     /// <summary>
     /// Represents a sphere-shaped geometry.

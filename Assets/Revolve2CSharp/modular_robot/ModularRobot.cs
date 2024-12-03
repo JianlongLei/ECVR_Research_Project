@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// Represents a modular robot consisting of a body and a brain.

@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Represents the position and orientation of an object.

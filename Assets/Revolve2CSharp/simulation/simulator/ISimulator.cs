@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Interface for a simulator.

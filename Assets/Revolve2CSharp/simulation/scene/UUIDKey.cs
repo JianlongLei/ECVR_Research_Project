@@ -1,6 +1,6 @@
 using System;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents a unique key for objects using their UUID.

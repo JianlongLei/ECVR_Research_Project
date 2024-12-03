@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Represents a set of scenes and shared parameters for simulation.

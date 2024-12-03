@@ -1,7 +1,7 @@
 using System.Numerics;
-using ModularRobot.Simulation;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Joints
+namespace Revolve2.Joints
 {
     /// <summary>
     /// A hinge joint, also known as a revolute joint, which rotates around a single axis.

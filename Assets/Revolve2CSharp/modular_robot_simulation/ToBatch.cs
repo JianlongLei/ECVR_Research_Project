@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Scenes;
-using ModularRobot.Simulation;
+using Revolve2.Robot;
+using Revolve2.Scenes;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Utility to convert modular robot scenes into a batch of simulation scenes.

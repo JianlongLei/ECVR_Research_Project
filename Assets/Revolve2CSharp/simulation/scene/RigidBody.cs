@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using ModularRobot.Geo;
+using Revolve2.Geo;
+using Revolve2.Sensors;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// A collection of geometries and physics parameters for a rigid body.

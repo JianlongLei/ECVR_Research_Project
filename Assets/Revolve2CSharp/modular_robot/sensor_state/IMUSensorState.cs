@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot.Sensors
+namespace Revolve2.Sensors
 {
     /// <summary>
     /// Represents the state of an IMU (Inertial Measurement Unit) sensor.

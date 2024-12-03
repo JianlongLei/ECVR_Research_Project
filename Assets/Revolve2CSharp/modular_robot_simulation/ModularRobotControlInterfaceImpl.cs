@@ -1,10 +1,11 @@
 using System;
-using ModularRobot.Mapping;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
-using ModularRobot;
+using Revolve2.Mapping;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
+using Revolve2;
+using Revolve2.Robot;
 
-namespace ModularRobot.Control
+namespace Revolve2.Control
 {
     /// <summary>
     /// Implementation of the <see cref="IModularRobotControlInterface"/>.

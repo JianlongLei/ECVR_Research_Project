@@ -1,6 +1,6 @@
-using ModularRobot.Simulation;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Joints
+namespace Revolve2.Joints
 {
     /// <summary>
     /// A joint that fixes two rigid bodies together rigidly.

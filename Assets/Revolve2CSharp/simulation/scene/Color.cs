@@ -1,4 +1,4 @@
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents a color in RGBA format.

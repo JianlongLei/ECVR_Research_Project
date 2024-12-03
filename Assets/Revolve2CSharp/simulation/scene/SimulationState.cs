@@ -1,9 +1,10 @@
 using System;
 using System.Drawing;
 using System.Numerics;
-using ModularRobot.Joints;
+using Revolve2.Joints;
+using Revolve2.Sensors;
 
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Interface for the state of a simulation at a certain point.

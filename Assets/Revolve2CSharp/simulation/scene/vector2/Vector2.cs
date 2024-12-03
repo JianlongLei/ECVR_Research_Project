@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace ModularRobot.Vector
+namespace Revolve2.Vector
 {
     /// <summary>
     /// Represents a 2D vector.

@@ -1,14 +1,14 @@
-namespace ModularRobot.Simulation
+namespace Revolve2.Simulation
 {
     /// <summary>
     /// Parameters for a simulation batch.
-    /// </summary>
+    /// </summary>s
     public class BatchParameters
     {
         /// <summary>
         /// Seconds. The duration for which each robot should be simulated. If null, the simulation will run indefinitely.
         /// </summary>
-        public int? SimulationTime { get; set; }
+        public float? SimulationTime { get; set; }
 
         /// <summary>
         /// Hz. Frequency for state sampling during the simulation. If null, no sampling will be performed.
@@ -25,7 +25,7 @@ namespace ModularRobot.Simulation
         /// </summary>
         public float ControlFrequency { get; set; }
 
-        public BatchParameters(int? simulationTime, float? samplingFrequency, float simulationTimestep, float controlFrequency)
+        public BatchParameters(float? simulationTime, float? samplingFrequency, float simulationTimestep, float controlFrequency)
         {
             SimulationTime = simulationTime;
             SamplingFrequency = samplingFrequency;

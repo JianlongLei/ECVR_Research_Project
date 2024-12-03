@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     public interface IOrientation
     {

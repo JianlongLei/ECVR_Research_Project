@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace ModularRobot
+namespace Revolve2.Robot
 {
     /// <summary>
     /// A sensor for an active hinge that measures its angle.

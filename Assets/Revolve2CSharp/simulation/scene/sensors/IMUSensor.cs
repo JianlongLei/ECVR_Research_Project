@@ -1,7 +1,7 @@
 using System;
-using ModularRobot.Simulation;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Sensors
+namespace Revolve2.Sensors
 {
     /// <summary>
     /// Represents an inertial measurement unit (IMU) sensor.

@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Builders;
-using ModularRobot.Utilities;
+using Revolve2.Builders;
+using Revolve2.Robot;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Factories
+namespace Revolve2.Factories
 {
     /// <summary>
     /// Factory to get and initialize the corresponding builder for a given module.

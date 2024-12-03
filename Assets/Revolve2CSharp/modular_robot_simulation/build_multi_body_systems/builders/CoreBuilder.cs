@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
-using ModularRobot.Mapping;
-using ModularRobot.Simulation;
-using ModularRobot.Utilities;
+using Revolve2.Mapping;
+using Revolve2.Robot;
+using Revolve2.Simulation;
+using Revolve2.Utilities;
 
-namespace ModularRobot.Builders
+namespace Revolve2.Builders
 {
     public class CoreBuilder : Builder
     {

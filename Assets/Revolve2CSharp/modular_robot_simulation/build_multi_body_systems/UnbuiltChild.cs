@@ -1,8 +1,9 @@
 using System;
 using System.Numerics;
-using ModularRobot.Simulation;
+using Revolve2.Robot;
+using Revolve2.Simulation;
 
-namespace ModularRobot.Utilities
+namespace Revolve2.Utilities
 {
     /// <summary>
     /// Represents a module or sensor to be built into the multi-body system.
