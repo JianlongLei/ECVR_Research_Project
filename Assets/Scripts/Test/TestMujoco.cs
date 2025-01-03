@@ -1,194 +1,178 @@
 using System;
+using System.Net.Sockets;
+using System.Text;
 using UnityEngine;
-using Mujoco;
-using System.IO;
-using RevolVR;
-using System.Data;
-using Mono.Data.Sqlite;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 
-public class TestMujocoController : MjScene
+public class UnitySocketTest : MonoBehaviour
 {
-    public GameObject simRunnerObject;
-    public GameObject brainPrefab;
+    private TcpClient client;
+    private NetworkStream stream;
 
-    private float timeCounter = 0.0f;
-    private float timeCounterUpdate = 0.0f;
-	private const double targetFrameRate = 1000.0f;
-    SimulationSceneState[] sceneStates;
-    private int currentIndex = 0;
-
-    public unsafe GameObject ImportMujocoScene()
+    void Start()
     {
-        string path = $"{Application.dataPath}/model.xml";
-        var importer = new MjImporterWithAssets();
-        Model = MjEngineTool.LoadModelFromFile(path);
-        Data = MujocoLib.mj_makeData(Model);
-        GameObject importedScene = null;
-        while (importedScene == null)
-        {
-            importedScene = importer.ImportFile(path);
-        }
-        importedScene.tag = "MuJoCoImport";
-        return importedScene;
+        ConnectServer();
     }
 
-    public void ApplyShaders()
+    public void ConnectServer()
     {
-        Shader newShader = Shader.Find("Universal Render Pipeline/Lit");
+        ConnectToServer();
+        StartListening();
+    }
 
-        GameObject[] mujocoObjects = GameObject.FindGameObjectsWithTag("MuJoCoImport");
-
-        foreach (GameObject obj in mujocoObjects)
+    void ConnectToServer()
+    {
+        try
         {
-            Renderer[] renderers = obj.GetComponentsInChildren<Renderer>();
+            client = new TcpClient("127.0.0.1", 5000);  // 连接到 Python 服务端
+            stream = client.GetStream();
+            Debug.Log("Connected to server");
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Connection failed: " + e.Message);
+        }
+    }
 
-            foreach (Renderer r in renderers)
+    public void StartExperiment()
+    {
+
+        var data = new Message.Data
+        {
+            msg = "test_experiment.py",
+        };
+
+        // 请求实验
+        SendExperimentMessage("request_experiment", data);
+    }
+
+    public void SendExperimentData()
+    {
+
+        var data = new Message.Data
+        {
+            msg = "SendExperimentMessage('send_experiment_data', message);",
+        };
+
+        // 请求实验
+        SendExperimentMessage("send_experiment_data", data);
+    }
+
+    public void ControlCommand()
+    {
+
+        var data = new Message.Data
+        {
+            msg = "SendExperimentMessage('control_command', message);",
+        };
+        // 请求实验
+        SendExperimentMessage("control_command", data);
+    }
+
+    public void StopServer()
+    {
+        
+        var data = new Message.Data
+        {
+            msg = "SendExperimentMessage('stop_server', data);",
+        };
+        // 请求实验
+        SendExperimentMessage("stop_server", data);
+    }
+
+    void SendExperimentMessage(string type, Message.Data data)
+    {
+        var message = new Message
+        {
+            type = type,
+            data = data
+        };
+        Debug.Log($"Sent message: {message}");
+        string json = JsonUtility.ToJson(message);
+        byte[] bytes = Encoding.UTF8.GetBytes(json);
+        stream.Write(bytes, 0, bytes.Length);
+        Debug.Log($"Sent message: {json}");
+    }
+
+    void StartListening()
+    {
+        byte[] buffer = new byte[1024];
+        stream.BeginRead(buffer, 0, buffer.Length, OnMessageReceived, buffer);
+    }
+
+    void OnMessageReceived(IAsyncResult result)
+    {
+        try
+        {
+            int bytesRead = stream.EndRead(result);
+            Debug.Log($"New message comming: result: {result}; bytesRead: {bytesRead}");
+            byte[] buffer = (byte[])result.AsyncState;
+            string json = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+            Debug.Log($"json: {json}");
+
+            // 解析消息
+            var message = JsonUtility.FromJson<Message>(json);
+            switch (message.type)
             {
-                foreach (Material m in r.materials)
-                {
-                    m.shader = newShader;
-                }
+                case "send_xml":
+                    Debug.Log("Received XML data: " + message.data.xml_data);
+                    break;
+
+                case "control_command":
+                    Debug.Log("Received control command: " + message.data);
+                    break;
+
+                case "stop_server":
+                    Debug.Log("Received stop server command " + message.data);
+                    StopConnection();   // 停止连接
+                    return;
+                    // break;
+
+                default:
+                    Debug.LogWarning("Unknown message type: " + message.type);
+                    break;
             }
         }
+        catch (Exception e)
+        {
+            Debug.LogError("Error receiving message: " + e.Message);
+        } finally
+        {
+            StartListening();
+        }
     }
 
-    public void AddInfoObjects()
+    [Serializable]
+    public class Message
     {
-        GameObject mujocoScene = GameObject.FindWithTag("MuJoCoImport");
-        if (mujocoScene == null)
+        public string type;
+        public Data data;
+
+        [Serializable]
+        public class Data
         {
-            Debug.Log("Couldn't find imported MuJoCo scene");
-            return;
+            public string msg;
+            public string xml_data;
+            // public int step;
+            // public Control[] controls;
         }
 
-        Transform sceneTransform = mujocoScene.transform;
-        int i = 0;
-        List<IndividualData> latestIndividuals = DatabaseManager.GetIndividualsDataFromLatestGeneration();
-        foreach (Transform child in sceneTransform)
+        [Serializable]
+        public class Control
         {
-            GameObject childObject = child.gameObject;
-            string childName = childObject.name;
-            if (childName.StartsWith("mbs") && childName != "mbs0/")
-            {
-                GameObject instantiatedPrefab = Instantiate(brainPrefab);
-                RobotInfo robotInfo = instantiatedPrefab.GetComponent<RobotInfo>();
-                if (robotInfo != null)
-                {
-                    if (i >= latestIndividuals.Count)
-                    {
-                        Debug.Log("There is a mismatch between the amount of users in the scene and the amount of individuals in the latest generation.");
-                    }
-                    else
-                    {
-                        IndividualData currentIndividual = latestIndividuals[i];
-                        i++;
-                        robotInfo.UpdateRobotInfo($"Robot {i}", currentIndividual.Fitness, currentIndividual.Id);
-                    }
-                }
-                else
-                {
-                    Debug.LogError("RobotInfo script not found on the instantiated prefab.");
-                }
-                instantiatedPrefab.transform.SetParent(childObject.transform.GetChild(1), false);
-                instantiatedPrefab.transform.position = childObject.transform.GetChild(1).position;
-            }
+            public int id;
+            public float position;
+            public float velocity;
         }
     }
-
-
-    // void Start() {
-    //     ImportMujocoScene();
-    //     ApplyShaders();
-    //     // AddInfoObjects();
-    //     base.Start();
-    // }
-    unsafe void Start()
-	{
-        ImportMujocoScene();
-        ApplyShaders();
-		Application.targetFrameRate = 144;
-		Time.timeScale = 1;
-
-		// SimRunner simRunner = simRunnerObject.GetComponent<SimRunner>();
-		// if (simRunner == null)
-		// {
-		// 	Debug.LogError("SimRunner component is missing from the specified GameObject.");
-		// 	return;
-		// }
-
-		// GameObject mujocoScene1 = simRunner.ImportMujocoScene();
-
-		// simRunner.ApplyShaders();
-		// simRunner.AddInfoObjects();
-		ctrlCallback += (_, _) => TrackMujocoData();
-
-		string filePath = Path.Combine(Application.dataPath, "animation_data.json");
-		filePath = filePath.Replace("\\", "/");
-		string jsonData = File.ReadAllText(filePath);
-
-		sceneStates = JsonHelper.FromJson<SimulationSceneState>(jsonData);
-
-        base.Start();
-	}
-
-    protected unsafe void FixedUpdate()
+    void OnDestroy()
     {
-        timeCounterUpdate += Time.deltaTime;
-        if (timeCounterUpdate < 1.0f / targetFrameRate)
-        {
-            return;
-        }
-        timeCounterUpdate = 0;
-        base.FixedUpdate();
+        StopConnection();
     }
-    
-    [System.Serializable]
-    public class SimulationScene
+
+    void StopConnection()
     {
-        public SimulationSceneState[] scenes;
+        stream.Close();
+        client.Close();
+        Debug.Log("Disconnected from server");
     }
-
-    unsafe public void TrackMujocoData()
-    {
-        timeCounter += Time.deltaTime;
-        if (timeCounter < 1.0f / targetFrameRate)
-        {
-            return;
-        }
-        timeCounter = 0;
-        if (currentIndex < sceneStates.Length)
-        {
-
-            for (int i = 0; i < sceneStates[currentIndex].xpos.Length; i++)
-            {
-                Data->xpos[i] = sceneStates[currentIndex].xpos[i];
-            }
-
-            for (int i = 0; i < sceneStates[currentIndex].xquat.Length; i++)
-            {
-                Data->xquat[i] = sceneStates[currentIndex].xquat[i];
-            }
-
-            for (int i = 0; i < sceneStates[currentIndex].qpos.Length; i++)
-            {
-                Data->qpos[i] = sceneStates[currentIndex].qpos[i];
-            }
-        }
-
-        currentIndex++;
-    }
-
-    // void LateUpdate() {
-    //     base.LateUpdate();
-    //     ApplyShaders();
-    // }
-
-    // unsafe void Update() {
-    //     MujocoLib.mj_step(Model, Data);
-    //     string text2 = Path.Combine(Application.temporaryCachePath, "temp" + ".xml");
-    //     MjEngineTool.SaveModelToFile(text2, Model);
-    //     string mjcfString = File.ReadAllText(text2);
-    // }
 }

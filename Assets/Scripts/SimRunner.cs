@@ -16,6 +16,7 @@ using UnityEditor;
 using System.Net.Http;
 using System.Threading.Tasks;
 using UnityEngine.Networking;
+using Revolve2.Robot;
 
 public static class JsonHelper
 {
@@ -106,6 +107,8 @@ namespace RevolVR
 		public GameObject brainPrefab;
 		private float timeCounter = 0.0f;
 		private const double targetFrameRate = 20.0;
+
+		// private BrainCpgNetworkNeighborRandom brain = new BrainCpgNetworkNeighborRandom();
 
 		string modelXml = "";
 
